@@ -1,0 +1,74 @@
+body {
+	color: #292E37;
+}
+.calendar-settings {
+	margin: 20px 0px;
+}
+.calendar-title {
+	background-color: #292E37;
+	color: #ffffff;
+	padding: 10px 10px;
+	text-align: center;
+	font-size: 1.5em;
+}
+.calendar-header {
+	background-color: #38618c;
+	color: #ffffff;
+	padding: 10px 10px;
+	text-transform: capitalize;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.calendar-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+.calendar-header div, .calendar-row div {
+	flex: 1;
+}
+.calendar-row div div {
+	flex: 1;
+}
+.calendar-container .event {
+	background-color: #ffe74c;
+}
+.calendar-container .event2 {
+	background-color: #ff5964;
+	color: #ffffff;
+}
+div.day, div.time {
+	padding: 0px 5px;
+}
+div.time {
+	width: 60px;
+}
+div.day {
+}
+.calendar-row, .calendar-row .day {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.calendar-row .day div {
+	padding: 5px 5px;
+}
+div.day div {
+	margin-right: 2px;
+	display: inline-block;
+}
+.calendar-row:nth-child(odd) {
+	background-color: #fafafa;
+}
+.today {
+	background-color: rgba(56,97,140,0.05);
+}
+
+/*
+#ffe74c /* Gargoyle Gas
+#ff5964 /* Fiery Rose
+#ffffff /* White
+#38618c /* Teal Blue
+#292E37 /* Gunmetal
+*/

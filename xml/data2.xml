@@ -1,0 +1,12 @@
+<xml>
+<dayinweek hr="30.03.2016 15:07:18">1459350438</dayinweek> <items>
+<item>
+<title>Party hard</title>
+<start hr="28.03.2016 22:00:00">1459202400</start> <end hr="29.03.2016 13:15:00">1459257300</end>
+            </item>
+            <item>
+<title>Just something</title>
+<start hr="28.03.2016 03:00:00">1459134000</start> <end hr="28.03.2016 09:00:00">1459155600</end>
+            </item>
+      </items>
+</xml>
